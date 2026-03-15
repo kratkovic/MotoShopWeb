@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRON RIDE | Proizvodi</title>
+    <link rel="stylesheet" href="css/oblikovanje.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">
+            <img src="slike/logo.png" alt="IRON RIDE Logo" class="nav-logo">
+        </a>
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="proizvodi.html" class="active">Proizvodi</a></li>
+            <li><a href="o_nama.html">O nama</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="istaknuti-proizvodi">
+        <h2>Naša Ponuda</h2>
+
+        <div class="proizvodi-grid">
+            <article class="proizvod">
+                <div class="slika-kontejner-proizvod" onclick="dodajUKosaricu('Moto Kaciga XR-1')">
+                    <img src="slike/kaciga.png" alt="Moto kaciga">
+                    <div class="kosarica-overlay">Dodaj u košaricu</div>
+                </div>
+                <h3>Moto Kaciga XR-1</h3>
+                <p class="cijena"><strong>150 €</strong></p>
+            </article>
+
+            <article class="proizvod">
+                <div class="slika-kontejner-proizvod" onclick="dodajUKosaricu('Moto Jakna ProRide')">
+                    <img src="slike/jakna.png" alt="Moto jakna">
+                    <div class="kosarica-overlay">Dodaj u košaricu</div>
+                </div>
+                <h3>Moto Jakna ProRide</h3>
+                <p class="cijena"><strong>200 €</strong></p>
+            </article>
+
+            <article class="proizvod">
+                <div class="slika-kontejner-proizvod" onclick="dodajUKosaricu('Rukavice GripMaster')">
+                    <img src="slike/rukavice.png" alt="Moto rukavice">
+                    <div class="kosarica-overlay">Dodaj u košaricu</div>
+                </div>
+                <h3>Rukavice GripMaster</h3>
+                <p class="cijena"><strong>50 €</strong></p>
+            </article>
+
+            <article class="proizvod">
+                <div class="slika-kontejner-proizvod" onclick="dodajUKosaricu('Bubrežnjak Core-Guard')">
+                    <img src="slike/bubreznjak.png" alt="Bubrežnjak">
+                    <div class="kosarica-overlay">Dodaj u košaricu</div>
+                </div>
+                <h3>Bubrežnjak Core-Guard</h3>
+                <p class="cijena"><strong>45 €</strong></p>
+            </article>
+
+            <article class="proizvod">
+                <div class="slika-kontejner-proizvod" onclick="dodajUKosaricu('Termo Marama Carbon')">
+                    <img src="slike/marama.png" alt="Marama">
+                    <div class="kosarica-overlay">Dodaj u košaricu</div>
+                </div>
+                <h3>Termo Marama Carbon</h3>
+                <p class="cijena"><strong>20 €</strong></p>
+            </article>
+
+            <article class="proizvod">
+                <div class="slika-kontejner-proizvod" onclick="dodajUKosaricu('Moto Ruksak Aero')">
+                    <img src="slike/ruksak.png" alt="Ruksak">
+                    <div class="kosarica-overlay">Dodaj u košaricu</div>
+                </div>
+                <h3>Moto Ruksak Aero</h3>
+                <p class="cijena"><strong>80 €</strong></p>
+            </article>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p class="copyright">&copy; 2026 IRON RIDE Moto Shop | Sva prava pridržana</p>
+</footer>
+
+<script src="js/forma.js"></script>
+
+</body>
+</html>

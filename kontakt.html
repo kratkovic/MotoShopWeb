@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRON RIDE | Kontakt</title>
+    <link rel="stylesheet" href="css/oblikovanje.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-container">
+            <a href="index.html">
+                <img src="slike/logo.png" alt="IRON RIDE Logo" class="nav-logo">
+            </a>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="proizvodi.html">Proizvodi</a></li>
+                <li><a href="o_nama.html">O nama</a></li>
+                <li><a href="kontakt.html" class="active">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="kontakt-glavno">
+        <section class="kontakt-sekcija">
+            <h1>KONTAKTIRAJTE NAS</h1>
+            <p class="upute">
+                Imate pitanja ili želite naručiti opremu?<br>
+                Ispunite formular u nastavku:
+            </p>
+
+            <form id="kontaktForma" class="moderna-forma">
+                <div class="polje">
+                    <label for="ime">Ime i prezime:</label>
+                    <input type="text" id="ime" placeholder="Unesite vaše ime..." required>
+                </div>
+
+                <div class="polje">
+                    <label for="email">Email adresa:</label>
+                    <input type="email" id="email" placeholder="vaš@email.com" required>
+                </div>
+
+                <div class="polje">
+                    <label for="poruka">Vaša poruka:</label>
+                    <textarea id="poruka" rows="6" placeholder="Kako vam možemo pomoći?"></textarea>
+                </div>
+
+                <button type="submit" class="btn-posalji">POŠALJI PORUKU</button>
+            </form>
+
+            <p id="statusPoruke"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 <strong>IRON RIDE</strong> Moto Shop | Sva prava pridržana</p>
+    </footer>
+
+    <script src="js/forma.js"></script>
+</body>
+
+</html>
